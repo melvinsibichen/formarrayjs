@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jstask</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+
+    <div class="container jstask">
+        <h1 class="jstask__h1">JavaScript Task</h1>
+        <form class="jstask__form" id="numberForm">
+            <label for="numberInput">Enter a number:</label>
+            <input type="text" id="numberInput" required>
+            <button class="jstask__addbtn" type="button" id="addNumber">ADD</button>
+            <button class="jstask__submitbtn" type="button" id="calculate">SUBMIT</button>
+        </form>
+
+        <div id="result">
+            <p>Numbers entered: <span id="numbersList"></span></p>
+            <p>Sum: <span id="sum"></span></p>
+            <p>Average: <span id="average"></span></p>
+            <p>Largest: <span id="largest"></span></p>
+            <p>Smallest: <span id="smallest"></span></p>
+        </div>
+    </div>
+
+
+    <!-- js link -->
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
